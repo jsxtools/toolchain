@@ -1,0 +1,29 @@
+{
+  "name": "jsxtools",
+  "description": "A collection of JSX Tools",
+  "author": "TandemSeven <github@tandemseven.com>",
+  "license": "CC0-1.0",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "postinstall": "lerna bootstrap",
+    "test": "eslint packages/**/*.js --cache --ignore-path .gitignore --resolve-plugins-relative-to node_modules"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "lerna": "^3.15.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 10,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "impliedStrict": true
+      }
+    }
+  },
+  "private": true
+}

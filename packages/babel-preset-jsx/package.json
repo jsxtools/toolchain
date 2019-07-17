@@ -1,0 +1,27 @@
+{
+  "name": "@jsxtools/babel-preset-jsx",
+  "version": "1.0.0",
+  "description": "Babel preset for transforming JSX",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "license": "CC0-1.0",
+  "repository": "jsxtools/jsxtools",
+  "homepage": "https://github.com/jsxtools/jsxtools/tree/master/packages/babel-preset-jsx#readme",
+  "bugs": "https://github.com/jsxtools/jsxtools/issues?q=babel-preset-jsx",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@babel/plugin-transform-react-display-name": "^7",
+    "@babel/plugin-transform-react-jsx": "^7",
+    "@babel/plugin-transform-react-jsx-self": "^7",
+    "@babel/plugin-transform-react-jsx-source": "^7",
+    "babel-plugin-jsx-imports": "^1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7"
+  }
+}

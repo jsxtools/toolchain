@@ -1,0 +1,25 @@
+{
+  "name": "@jsxtools/jest-transform-preact",
+  "version": "1.0.0",
+  "description": "Jest transformer for Preact JSX",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "license": "CC0-1.0",
+  "repository": "jsxtools/jsxtools",
+  "homepage": "https://github.com/jsxtools/jsxtools/tree/master/packages/jest-transform-preact#readme",
+  "bugs": "https://github.com/jsxtools/jsxtools/issues?q=jest-transform-preact",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "babel-plugin-istanbul": "^5.1.4",
+    "babel-preset-jest": "^24.6.0",
+    "@jsxtools/babel-preset-preact": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7"
+  }
+}

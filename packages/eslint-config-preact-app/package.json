@@ -1,0 +1,28 @@
+{
+  "name": "@jsxtools/eslint-config-preact-app",
+  "version": "1.0.0",
+  "description": "ESLint configuration for Preact apps modeled after Create React App",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "license": "CC0-1.0",
+  "repository": "jsxtools/jsxtools",
+  "homepage": "https://github.com/jsxtools/jsxtools/tree/master/packages/eslint-config-preact-app#readme",
+  "bugs": "https://github.com/jsxtools/jsxtools/issues?q=eslint-config-preact-app",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-jsx-a11y": "^6",
+    "eslint-plugin-react": "^7",
+    "eslint-plugin-react-hooks": "^1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10",
+    "eslint": "^6"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^10",
+    "eslint": "^6"
+  }
+}

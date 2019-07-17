@@ -1,0 +1,23 @@
+{
+  "name": "@jsxtools/babel-preset-preact",
+  "version": "1.0.0",
+  "description": "Babel preset for transforming Preact JSX",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "license": "CC0-1.0",
+  "repository": "jsxtools/jsxtools",
+  "homepage": "https://github.com/jsxtools/jsxtools/tree/master/packages/babel-preset-preact#readme",
+  "bugs": "https://github.com/jsxtools/jsxtools/issues?q=babel-preset-preact",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@jsxtools/babel-preset-jsx": "^1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7"
+  }
+}
