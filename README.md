@@ -1,26 +1,30 @@
 # jsxtools [<img src="https://avatars.githubusercontent.com/u/52989093" alt="" width="90" height="90" align="right">][jsxtools]
 
-[![Build Status][cli-img]][cli-url]
-[![Issue Tracker][git-img]][git-url]
-[![Pull Requests][gpr-img]][gpr-url]
+[<img alt="build status" src="https://img.shields.io/travis/jsxtools/jsxtools/master.svg" height="20">](https://travis-ci.org/jsxtools/jsxtools)
+[<img alt="code coverage" src="https://img.shields.io/codecov/c/github/jsxtools/jsxtools" height="20">](https://codecov.io/gh/jsxtools/jsxtools)
+[<img alt="issue tracker" src="https://img.shields.io/github/issues/jsxtools/jsxtools.svg" height="20">](https://github.com/jsxtools/jsxtools/issues)
+[<img alt="pull requests" src="https://img.shields.io/github/issues-pr/jsxtools/jsxtools.svg" height="20">](https://github.com/jsxtools/jsxtools/pulls)
 
-[jsxtools] is a collection of JSX Tools.
+[jsxtools] is a collection of JavaScript and JSX related tools.
 
-- [babel-preset-jsx]: Babel preset for transforming JSX.
-- [babel-preset-preact]: Babel preset for transforming Preact JSX.
-- [eslint-config-preact-app]: ESLint configuration for Preact apps modeled
+<details open>
+  <summary><h2>Babel Tools</h2></summary>
+
+- [babel-preset-jsx](packages/babel-preset-jsx): Babel preset for transforming JSX.
+- [babel-preset-preact](packages/babel-preset-preact): Babel preset for transforming Preact JSX.
+</details>
+
+<details open>
+  <summary><h2>Eslint Tools</h2></summary>
+
+- [eslint-config-preact-app](packages/eslint-config-preact-app): ESLint configuration for Preact apps modeled
   after Create React App.
-- [jest-transform-preact]: Jest transformer for Preact JSX.
+</details>
 
-[babel-preset-jsx]: packages/babel-preset-jsx
-[babel-preset-preact]: packages/babel-preset-preact
-[eslint-config-preact-app]: packages/eslint-config-preact-app
-[jest-transform-preact]: packages/jest-transform-preact
-[jsxtools]: https://github.com/jsxtools/jsxtools
+<details open>
+  <summary><h2>Jest Tools</h2></summary>
 
-[cli-img]: https://img.shields.io/travis/jsxtools/jsxtools/master.svg
-[cli-url]: https://travis-ci.org/jsxtools/jsxtools
-[git-img]: https://img.shields.io/github/issues/jsxtools/jsxtools.svg
-[git-url]: https://github.com/jsxtools/jsxtools/issues
-[gpr-img]: https://img.shields.io/github/issues-pr/jsxtools/jsxtools.svg
-[gpr-url]: https://github.com/jsxtools/jsxtools/pulls
+- [jest-transform-preact](packages/jest-transform-preact): Jest transformer for Preact JSX.
+</details>
+
+[jsxtools]: https://github.com/jsxtools/jsxtools/
