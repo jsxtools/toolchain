@@ -40,8 +40,8 @@ Define **path mapping** in `tsconfig.json` or `jsconfig.json`:
   "compilerOptions": {
     "baseUrl": "src",
     "paths": {
-      "@com/*": ["components/*"],
-      "@css/*": ["components/*.module.css"]
+      "@app/*": ["components/*"],
+      "@css/*": ["components/*/index.module.css"]
     }
   }
 }
@@ -51,8 +51,8 @@ Enjoy writing a smooth **React App**:
 
 ```js
 // App.js (before)
-import Button from '@com/Button';
-import style from '@css/Button/style';
+import Button from '@app/Button';
+import style from '@css/Button';
 
 export const App = props => <Button class={style.Button}>{props.children}</Button>;
 ```
@@ -61,7 +61,7 @@ export const App = props => <Button class={style.Button}>{props.children}</Butto
 // App.js (after)
 import { createElement } from 'react';
 import Button from '/path/to/src/components/Button';
-import ButtonStyle from '/path/to/src/components/style.module.css';
+import ButtonStyle from '/path/to/src/components/Button/index.module.css';
 
 export const App = props => createElement(Button, { className: style.Button }, props.children);
 ```
