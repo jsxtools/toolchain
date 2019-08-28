@@ -1,0 +1,45 @@
+{
+  "name": "babel-preset-smooth-react-app",
+  "version": "1.0.0",
+  "description": "A babel preset for smooth Create React Apps",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "license": "CC0-1.0",
+  "repository": "jsxtools/jsxtools",
+  "homepage": "https://github.com/jsxtools/jsxtools/tree/master/packages/babel-preset-smooth-react-app#readme",
+  "bugs": "https://github.com/jsxtools/jsxtools/issues?q=babel-preset-smooth-react-app",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "babel-plugin-config-module-resolver": "^1",
+    "babel-plugin-jsx-imports": "^1",
+    "babel-plugin-react-html-attrs": "^2",
+    "babel-preset-react-app": "^9"
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "babel-preset",
+    "alias",
+    "automatic",
+    "baseUrl",
+    "class",
+    "className",
+    "for",
+    "html",
+    "htmlFor",
+    "import",
+    "jsconfig",
+    "jsconfig.json",
+    "mapping",
+    "module",
+    "path",
+    "react",
+    "rename",
+    "require",
+    "resolve",
+    "tsconfig",
+    "tsconfig.json"
+  ]
+}
