@@ -1,0 +1,18 @@
+{
+  "name": "rescript-smooth",
+  "version": "1.0.0",
+  "description": "A rescript configuration for smooth Create React Apps",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "license": "CC0-1.0",
+  "repository": "jsxtools/rescript-smooth",
+  "homepage": "https://github.com/jsxtools/rescript-smooth#readme",
+  "bugs": "https://github.com/jsxtools/rescript-smooth/issues",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "babel-preset-smooth-react-app": "^1",
+    "cosmiconfig": "^5"
+  }
+}
