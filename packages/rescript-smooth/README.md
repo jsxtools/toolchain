@@ -73,6 +73,7 @@ export const App = props => createElement(Button, { className: style.Button }, p
 Add a babel configuration with the following fields:
 
 ```js
+// .babelrc.json
 {
   "presets": "react-app"
 }
@@ -83,6 +84,7 @@ Add a babel configuration with the following fields:
 Add an eslint configuration with the following fields:
 
 ```js
+// .eslintrc.json
 {
   "extends": "react-app"
 }
@@ -93,11 +95,12 @@ Add an eslint configuration with the following fields:
 Add a PostCSS configuration with the following fields:
 
 ```js
+// .postcssrc.json
 {
-  plugins: [
-    require('postcss-flexbug-fixes')(),
-    require('postcss-preset-env')({ autoprefixer: { flexbox: 'no-2009' }, stage: 0 }),
-    require('postcss-normalize')()
+  "plugins": [
+    "postcss-flexbug-fixes",
+    ["postcss-preset-env", { autoprefixer: { flexbox: "no-2009" }, stage: 3 }],
+    "postcss-normalize"
   ]
 }
 ```
