@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-config-module-resolver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A babel plugin that resolves modules using the tsconfig.json or jsconfig.json configuration",
   "author": "Jonathan Neal <jonathantneal@hotmail.com>",
   "license": "CC0-1.0",

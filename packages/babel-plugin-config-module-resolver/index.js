@@ -62,6 +62,8 @@ const getCompilerOptions = fileRootDirectory => {
 	if (hasJsConfigFile) {
 		return Object(Object(require(jsConfigFile)).compilerOptions);
 	}
+
+	return {};
 };
 
 // get transformed tsconfig.json/jsconfig.json paths, replacing `*` with `(.*)` or `\1`
