@@ -5,17 +5,17 @@
 [<img alt="issue tracker" src="https://img.shields.io/github/issues/jsxtools/jsxtools/rescript-smooth.svg" height="20">](https://github.com/jsxtools/jsxtools/issues?q=is:issue+is:open+label:rescript-smooth)
 [<img alt="pull requests" src="https://img.shields.io/github/issues-pr/jsxtools/jsxtools/rescript-smooth.svg" height="20">](https://github.com/jsxtools/jsxtools/pulls?q=is:pr+is:open+label:rescript-smooth)
 
-[rescript-smooth] is a [rescript] configuration for smooth Create React Apps, allowing you to:
+[rescript-smooth] is a [rescript] configuration for smooth React Apps, allowing you to:
 
-- Write JSX in JavaScript without adding `react` imports.
-- Write `class` and `for` attributes in JSX elements.
-- Import modules from `paths` specified in `jsconfig.json`.
-- Use your own babel, eslint, and postcss configurations.
-- Use CSS sourcemaps in development.
+- Use JSX in JavaScript without adding `react` imports.
+- Use `class` and `for` attributes in JSX elements.
+- Support path mapping specified in `jsconfig.json`.
+- Use your own babel, eslint, and postcss configurations as needed.
+- Enable CSS sourcemaps in development.
 
 ## Installation
 
-Add **rescript-smooth** to your project:
+Add **rescript-smooth** to your **Create React App** project:
 
 ```sh
 npm install rescript-smooth
@@ -73,9 +73,18 @@ export const App = props => createElement(Button, { className: style.Button }, p
 Add a babel configuration with the following fields:
 
 ```js
-// .babelrc.json
+// .babelrc.json, or "babel" in package.json
 {
   "presets": "react-app"
+}
+```
+
+#### What if I want the smooth Babel configuration?
+
+```js
+// .babelrc.json, or "babel" in package.json
+{
+  "presets": "smooth-react-app"
 }
 ```
 
@@ -84,9 +93,18 @@ Add a babel configuration with the following fields:
 Add an eslint configuration with the following fields:
 
 ```js
-// .eslintrc.json
+// .eslintrc.json, or "eslintConfig" in package.json
 {
   "extends": "react-app"
+}
+```
+
+#### What if I want the smooth Eslint configuration?
+
+```js
+// .eslintrc.json, or "eslintConfig" in package.json
+{
+  "extends": "smooth-react-app"
 }
 ```
 
@@ -104,6 +122,10 @@ Add a PostCSS configuration with the following fields:
   ]
 }
 ```
+
+#### What if I want the smooth PostCSS configuration?
+
+The default and smooth PostCSS configurations are the same.
 
 [rescript]: https://github.com/harrysolovay/rescripts
 [rescript-smooth]: https://github.com/jsxtools/jsxtools/tree/master/packages/rescript-smooth

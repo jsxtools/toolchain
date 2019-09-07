@@ -1,18 +1,58 @@
 {
   "name": "rescript-smooth",
-  "version": "1.0.1",
-  "description": "A rescript configuration for smooth Create React Apps",
+  "version": "1.0.2",
+  "description": "A rescript configuration for smooth React Apps",
   "author": "Jonathan Neal <jonathantneal@hotmail.com>",
   "license": "CC0-1.0",
   "repository": "jsxtools/rescript-smooth",
-  "homepage": "https://github.com/jsxtools/rescript-smooth#readme",
-  "bugs": "https://github.com/jsxtools/rescript-smooth/issues",
+  "homepage": "https://github.com/jsxtools/jsxtools/tree/master/packages/rescript-smooth#readme",
+  "bugs": "https://github.com/jsxtools/jsxtools/issues?q=rescript-smooth",
   "main": "index.js",
+  "bin": {
+    "rescript-smooth": "install.js"
+  },
   "files": [
-    "index.js"
+    "index.js",
+    "install.js"
   ],
+  "scripts": {
+    "postinstall": "rescript-smooth"
+  },
   "dependencies": {
+    "@rescripts/cli": "^0",
     "babel-preset-smooth-react-app": "^1",
+    "eslint-config-smooth-react-app": "^1",
     "cosmiconfig": "^5"
-  }
+  },
+  "peerDependencies": {
+    "react-scripts": "2 - 3"
+  },
+  "keywords": [
+    "alias",
+    "automatic",
+    "babel",
+    "baseUrl",
+    "browserslist",
+    "class",
+    "className",
+    "eslint",
+    "for",
+    "html",
+    "htmlFor",
+    "import",
+    "jsconfig",
+    "jsconfig.json",
+    "mapping",
+    "module",
+    "path",
+    "postcss",
+    "react",
+    "rename",
+    "require",
+    "rescript",
+    "resolve",
+    "root",
+    "tsconfig",
+    "tsconfig.json"
+  ]
 }
