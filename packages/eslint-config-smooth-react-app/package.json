@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-smooth-react-app",
+  "version": "1.0.0",
+  "description": "A shareable eslint configuration for smooth React Apps",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "license": "CC0-1.0",
+  "repository": "jsxtools/jsxtools",
+  "homepage": "https://github.com/jsxtools/jsxtools/tree/master/packages/eslint-config-smooth-react-app#readme",
+  "bugs": "https://github.com/jsxtools/jsxtools/issues?q=eslint-config-smooth-react-app",
+  "main": "eslint.config.json",
+  "files": [
+    "eslint.config.json"
+  ],
+  "dependencies": {
+    "eslint-config-react-app": "^5.0.1"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "react",
+    "app"
+  ]
+}
