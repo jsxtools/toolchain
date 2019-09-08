@@ -12,7 +12,7 @@
     "eslint.config.json"
   ],
   "dependencies": {
-    "eslint-config-react-app": "^5.0.1"
+    "eslint-config-react-app": "^5"
   },
   "keywords": [
     "eslint",
