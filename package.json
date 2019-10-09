@@ -9,8 +9,8 @@
     "test": "eslint packages/**/*.js --cache --ignore-path .gitignore --resolve-plugins-relative-to node_modules"
   },
   "devDependencies": {
-    "eslint": "^6.2.2",
-    "lerna": "^3.16.4"
+    "eslint": "^6.5.1",
+    "lerna": "^3.16.5"
   },
   "eslintConfig": {
     "env": {
