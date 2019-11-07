@@ -1,13 +1,16 @@
 const { default: babelPluginModuleResolver } = require('babel-plugin-module-resolver');
+const { toPosixPath } = require('babel-plugin-module-resolver/lib/utils');
 const { existsSync } = require('fs');
-const { resolve } = require('path');
+const { posix: { join }, resolve } = require('path');
+
+const resolvePosixPath = request => toPosixPath(resolve(request));
 
 // babel-plugin-config-module-resolver
 const babelPluginConfigModuleResolver = types => {
 	const plugin = babelPluginModuleResolver(types);
 
 	return Object.assign({}, plugin, {
-		name: 'babel-plugin-config-resolver',
+		name: 'babel-plugin-config-module-resolver',
 		pre(file) {
 			// get the compiler options from tsconfig.json or jsconfig.json in the file root directory
 			const compilerOptions = getCompilerOptions(file.opts.root);
@@ -17,10 +20,10 @@ const babelPluginConfigModuleResolver = types => {
 			const hasBaseUrlOption = 'baseUrl' in compilerOptions;
 
 			if (hasRootOption) {
-				this.opts.root = this.opts.root;
+				this.opts.root = resolvePosixPath(this.opts.root);
 				this.normalizedOpts = this.opts;
 			} else if (hasBaseUrlOption) {
-				this.opts.root = compilerOptions.baseUrl;
+				this.opts.root = resolvePosixPath(compilerOptions.baseUrl);
 				this.normalizedOpts = this.opts;
 			}
 
@@ -29,7 +32,7 @@ const babelPluginConfigModuleResolver = types => {
 
 			if (hasPathsOption) {
 				// get the alias root from the `baseUrl` compiler option or the file root directory (and not the plugin root)
-				const pathsRoot = hasBaseUrlOption ? compilerOptions.baseUrl : file.opts.root;
+				const pathsRoot = this.opts.root || toPosixPath(resolve(file.opts.root));
 
 				this.opts.alias = Object.assign({}, this.opts.alias, getTransformedPaths(compilerOptions.paths, pathsRoot));
 				this.normalizedOpts = this.opts;
@@ -71,7 +74,7 @@ const getTransformedPaths = (paths, pathsRoot) => Object.entries(Object(paths)).
 	(alias, [name, values]) => Object.assign(
 		alias,
 		{
-			[name.replace(globRegExp, globCapture)]: resolve(pathsRoot, [].concat(values).pop().replace(globRegExp, globReplace))
+			[name.replace(globRegExp, globCapture)]: join(pathsRoot, [].concat(values).pop().replace(globRegExp, globReplace))
 		}
 	),
 	{}
@@ -80,6 +83,6 @@ const getTransformedPaths = (paths, pathsRoot) => Object.entries(Object(paths)).
 // transformation strategies for going from path to alias
 const globRegExp = /^(.*)\*/;
 const globCapture = '^$1(.*)';
-const globReplace = '$1/\\1';
+const globReplace = '$1\\1';
 
 module.exports = babelPluginConfigModuleResolver;
