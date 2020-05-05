@@ -5,8 +5,8 @@
   "author": "Jonathan Neal <jonathantneal@hotmail.com>",
   "license": "CC0-1.0",
   "repository": "jsxtools/rescript-smooth",
-  "homepage": "https://github.com/jsxtools/jsxtools/tree/master/packages/rescript-smooth#readme",
-  "bugs": "https://github.com/jsxtools/jsxtools/issues?q=rescript-smooth",
+  "homepage": "https://github.com/jsxtools/toolchain/tree/master/packages/rescript-smooth#readme",
+  "bugs": "https://github.com/jsxtools/toolchain/issues?q=rescript-smooth",
   "main": "index.js",
   "bin": {
     "rescript-smooth": "install.js"
@@ -16,13 +16,13 @@
     "install.js"
   ],
   "scripts": {
-    "postinstall": "rescript-smooth"
+    "postinstall": "node install.js"
   },
   "dependencies": {
     "@rescripts/cli": "^0",
     "babel-preset-smooth-react-app": "^1",
     "eslint-config-smooth-react-app": "^1",
-    "cosmiconfig": "^5"
+    "cosmiconfig": "^6"
   },
   "peerDependencies": {
     "react-scripts": "2 - 3"

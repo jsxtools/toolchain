@@ -1,10 +1,10 @@
-# jsxtools [<img src="https://avatars.githubusercontent.com/u/52989093" alt="" width="90" height="90" align="right">][jsxtools]
+# toolchain [<img src="https://avatars.githubusercontent.com/u/52989093" alt="" width="90" height="90" align="right">][toolchain]
 
 [![Build Status][cli-img]][cli-url]
 [![Issue Tracker][git-img]][git-url]
 [![Pull Requests][gpr-img]][gpr-url]
 
-[jsxtools] is a collection of JSX Tools.
+[toolchain] is a collection of JSX Tools.
 
 - [babel-preset-jsx]: Babel preset for transforming JSX.
 - [babel-preset-preact]: Babel preset for transforming Preact JSX.
@@ -16,11 +16,11 @@
 [babel-preset-preact]: packages/babel-preset-preact
 [eslint-config-preact-app]: packages/eslint-config-preact-app
 [jest-transform-preact]: packages/jest-transform-preact
-[jsxtools]: https://github.com/jsxtools/jsxtools
+[toolchain]: https://github.com/jsxtools/toolchain
 
-[cli-img]: https://img.shields.io/travis/jsxtools/jsxtools/master.svg
-[cli-url]: https://travis-ci.org/jsxtools/jsxtools
-[git-img]: https://img.shields.io/github/issues/jsxtools/jsxtools.svg
-[git-url]: https://github.com/jsxtools/jsxtools/issues
-[gpr-img]: https://img.shields.io/github/issues-pr/jsxtools/jsxtools.svg
-[gpr-url]: https://github.com/jsxtools/jsxtools/pulls
+[cli-img]: https://img.shields.io/travis/jsxtools/toolchain/master.svg
+[cli-url]: https://travis-ci.org/jsxtools/toolchain
+[git-img]: https://img.shields.io/github/issues/jsxtools/toolchain.svg
+[git-url]: https://github.com/jsxtools/toolchain/issues
+[gpr-img]: https://img.shields.io/github/issues-pr/jsxtools/toolchain.svg
+[gpr-url]: https://github.com/jsxtools/toolchain/pulls

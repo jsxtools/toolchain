@@ -1,4 +1,4 @@
-# jest-transform-preact [<img src="https://avatars.githubusercontent.com/u/52989093" alt="" width="90" height="90" align="right">][jsxtools]
+# jest-transform-preact [<img src="https://avatars.githubusercontent.com/u/52989093" alt="" width="90" height="90" align="right">][toolchain]
 
 [![Build Status][cli-img]][cli-url]
 [![Issue Tracker][git-img]][git-url]
@@ -42,13 +42,13 @@ module.exports = {
 
 [babel-preset-preact]: https://github.com/jonathantneal/preact-tools/packages/babel-preset-preact
 [Jest]: https://github.com/facebook/jest
-[jsxtools]: https://github.com/jsxtools/jsxtools
+[toolchain]: https://github.com/jsxtools/toolchain
 [jest-transform-preact]: https://github.com/jonathantneal/preact-tools/packages/jest-transform-preact
 [Preact]: https://github.com/preactjs/preact
 
-[cli-img]: https://img.shields.io/travis/jsxtools/jsxtools/master.svg
-[cli-url]: https://travis-ci.org/jsxtools/jsxtools
-[git-img]: https://img.shields.io/github/issues/jsxtools/jsxtools/jest-transform-preact.svg
-[git-url]: https://github.com/jsxtools/jsxtools/issues
-[gpr-img]: https://img.shields.io/github/issues-pr/jsxtools/jsxtools/jest-transform-preact.svg
-[gpr-url]: https://github.com/jsxtools/jsxtools/pulls
+[cli-img]: https://img.shields.io/travis/jsxtools/toolchain/master.svg
+[cli-url]: https://travis-ci.org/jsxtools/toolchain
+[git-img]: https://img.shields.io/github/issues/jsxtools/toolchain/jest-transform-preact.svg
+[git-url]: https://github.com/jsxtools/toolchain/issues
+[gpr-img]: https://img.shields.io/github/issues-pr/jsxtools/toolchain/jest-transform-preact.svg
+[gpr-url]: https://github.com/jsxtools/toolchain/pulls

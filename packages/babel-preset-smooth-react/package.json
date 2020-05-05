@@ -4,9 +4,9 @@
   "description": "A babel preset for smooth Create React Apps",
   "author": "Jonathan Neal <jonathantneal@hotmail.com>",
   "license": "CC0-1.0",
-  "repository": "jsxtools/jsxtools",
-  "homepage": "https://github.com/jsxtools/jsxtools/tree/master/packages/babel-preset-smooth-react#readme",
-  "bugs": "https://github.com/jsxtools/jsxtools/issues?q=babel-preset-smooth-react",
+  "repository": "jsxtools/toolchain",
+  "homepage": "https://github.com/jsxtools/toolchain/tree/master/packages/babel-preset-smooth-react#readme",
+  "bugs": "https://github.com/jsxtools/toolchain/issues?q=babel-preset-smooth-react",
   "main": "index.js",
   "files": [
     "index.js"
@@ -15,7 +15,7 @@
     "@babel/preset-react": "^7",
     "babel-plugin-config-module-resolver": "^1",
     "babel-plugin-jsx-imports": "^1",
-    "babel-plugin-react-html-attrs": "^2"
+    "babel-plugin-react-html-attrs": "^3"
   },
   "keywords": [
     "babel",

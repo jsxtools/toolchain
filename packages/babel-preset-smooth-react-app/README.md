@@ -1,9 +1,9 @@
-# babel-preset-smooth-react-app [<img src="https://avatars.githubusercontent.com/u/52989093" alt="" width="90" height="90" align="right">][jsxtools]
+# babel-preset-smooth-react-app [<img src="https://avatars.githubusercontent.com/u/52989093" alt="" width="90" height="90" align="right">][toolchain]
 
 [<img alt="npm version" src="https://img.shields.io/npm/v/babel-preset-smooth-react-app.svg" height="20">](https://www.npmjs.com/package/babel-preset-smooth-react-app)
-[<img alt="build status" src="https://img.shields.io/travis/jsxtools/jsxtools/master.svg" height="20">](https://travis-ci.org/jsxtools/jsxtools)
-[<img alt="issue tracker" src="https://img.shields.io/github/issues/jsxtools/jsxtools/babel-preset-smooth-react-app.svg" height="20">](https://github.com/jsxtools/jsxtools/issues?q=is:issue+is:open+label:babel-preset-smooth-react-app)
-[<img alt="pull requests" src="https://img.shields.io/github/issues-pr/jsxtools/jsxtools/babel-preset-smooth-react-app.svg" height="20">](https://github.com/jsxtools/jsxtools/pulls?q=is:pr+is:open+label:babel-preset-smooth-react-app)
+[<img alt="build status" src="https://img.shields.io/travis/jsxtools/toolchain/master.svg" height="20">](https://travis-ci.org/jsxtools/toolchain)
+[<img alt="issue tracker" src="https://img.shields.io/github/issues/jsxtools/toolchain/babel-preset-smooth-react-app.svg" height="20">](https://github.com/jsxtools/toolchain/issues?q=is:issue+is:open+label:babel-preset-smooth-react-app)
+[<img alt="pull requests" src="https://img.shields.io/github/issues-pr/jsxtools/toolchain/babel-preset-smooth-react-app.svg" height="20">](https://github.com/jsxtools/toolchain/pulls?q=is:pr+is:open+label:babel-preset-smooth-react-app)
 
 [babel-preset-smooth-react-app] is a Babel preset for smooth Create React Apps.
 
@@ -129,5 +129,5 @@ The `useBuiltIns` option determines whether the preset should use native
 built-ins instead of trying to polyfill behavior for any plugins requiring it.
 
 [babel-preset-react-app]: https://github.com/facebook/create-react-app/tree/master/packages/babel-preset-react-app
-[babel-preset-smooth-react-app]: https://github.com/jsxtools/jsxtools/tree/master/packages/babel-preset-smooth-react-app
-[jsxtools]: https://github.com/jsxtools/jsxtools
+[babel-preset-smooth-react-app]: https://github.com/jsxtools/toolchain/tree/master/packages/babel-preset-smooth-react-app
+[toolchain]: https://github.com/jsxtools/toolchain

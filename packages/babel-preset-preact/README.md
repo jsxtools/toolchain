@@ -1,4 +1,4 @@
-# babel-preset-preact [<img src="https://avatars.githubusercontent.com/u/52989093" alt="" width="90" height="90" align="right">][jsxtools]
+# babel-preset-preact [<img src="https://avatars.githubusercontent.com/u/52989093" alt="" width="90" height="90" align="right">][toolchain]
 
 [![Build Status][cli-img]][cli-url]
 [![Issue Tracker][git-img]][git-url]
@@ -105,14 +105,14 @@ The `pragmaFrag` option defines how the fragment creation function is added.
 [@babel/plugin-transform-react-jsx-source]: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-react-jsx-source
 [@babel/plugin-transform-react-jsx]: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-react-jsx
 [babel-plugin-jsx-imports]: https://github.com/jonathantneal/babel-plugin-jsx-imports
-[babel-preset-jsx]: https://github.com/jsxtools/jsxtools/tree/master/packages/babel-preset-jsx
-[babel-preset-preact]: https://github.com/jsxtools/jsxtools/tree/master/packages/babel-preset-preact
-[jsxtools]: https://github.com/jsxtools/jsxtools
+[babel-preset-jsx]: https://github.com/jsxtools/toolchain/tree/master/packages/babel-preset-jsx
+[babel-preset-preact]: https://github.com/jsxtools/toolchain/tree/master/packages/babel-preset-preact
+[toolchain]: https://github.com/jsxtools/toolchain
 [Preact]: https://github.com/preactjs/preact
 
-[cli-img]: https://img.shields.io/travis/jsxtools/jsxtools/master.svg
-[cli-url]: https://travis-ci.org/jsxtools/jsxtools
-[git-img]: https://img.shields.io/github/issues/jsxtools/jsxtools/babel-preset-preact.svg
-[git-url]: https://github.com/jsxtools/jsxtools/issues
-[gpr-img]: https://img.shields.io/github/issues-pr/jsxtools/jsxtools/babel-preset-preact.svg
-[gpr-url]: https://github.com/jsxtools/jsxtools/pulls
+[cli-img]: https://img.shields.io/travis/jsxtools/toolchain/master.svg
+[cli-url]: https://travis-ci.org/jsxtools/toolchain
+[git-img]: https://img.shields.io/github/issues/jsxtools/toolchain/babel-preset-preact.svg
+[git-url]: https://github.com/jsxtools/toolchain/issues
+[gpr-img]: https://img.shields.io/github/issues-pr/jsxtools/toolchain/babel-preset-preact.svg
+[gpr-url]: https://github.com/jsxtools/toolchain/pulls

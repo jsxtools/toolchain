@@ -4,15 +4,15 @@
   "description": "A babel plugin that resolves modules using the tsconfig.json or jsconfig.json configuration",
   "author": "Jonathan Neal <jonathantneal@hotmail.com>",
   "license": "CC0-1.0",
-  "repository": "jsxtools/jsxtools",
-  "homepage": "https://github.com/jsxtools/jsxtools/tree/master/packages/babel-plugin-config-module-resolver#readme",
-  "bugs": "https://github.com/jsxtools/jsxtools/issues?q=babel-plugin-config-module-resolver",
+  "repository": "jsxtools/toolchain",
+  "homepage": "https://github.com/jsxtools/toolchain/tree/master/packages/babel-plugin-config-module-resolver#readme",
+  "bugs": "https://github.com/jsxtools/toolchain/issues?q=babel-plugin-config-module-resolver",
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "dependencies": {
-    "babel-plugin-module-resolver": "^3"
+    "babel-plugin-module-resolver": "^4"
   },
   "keywords": [
     "babel",

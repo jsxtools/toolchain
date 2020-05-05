@@ -1,9 +1,9 @@
-# rescript-smooth [<img src="https://avatars.githubusercontent.com/u/52989093" alt="" width="90" height="90" align="right">][jsxtools]
+# rescript-smooth [<img src="https://avatars.githubusercontent.com/u/52989093" alt="" width="90" height="90" align="right">][toolchain]
 
 [<img alt="npm version" src="https://img.shields.io/npm/v/rescript-smooth.svg" height="20">](https://www.npmjs.com/package/rescript-smooth)
-[<img alt="build status" src="https://img.shields.io/travis/jsxtools/jsxtools/master.svg" height="20">](https://travis-ci.org/jsxtools/jsxtools)
-[<img alt="issue tracker" src="https://img.shields.io/github/issues/jsxtools/jsxtools/rescript-smooth.svg" height="20">](https://github.com/jsxtools/jsxtools/issues?q=is:issue+is:open+label:rescript-smooth)
-[<img alt="pull requests" src="https://img.shields.io/github/issues-pr/jsxtools/jsxtools/rescript-smooth.svg" height="20">](https://github.com/jsxtools/jsxtools/pulls?q=is:pr+is:open+label:rescript-smooth)
+[<img alt="build status" src="https://img.shields.io/travis/jsxtools/toolchain/master.svg" height="20">](https://travis-ci.org/jsxtools/toolchain)
+[<img alt="issue tracker" src="https://img.shields.io/github/issues/jsxtools/toolchain/rescript-smooth.svg" height="20">](https://github.com/jsxtools/toolchain/issues?q=is:issue+is:open+label:rescript-smooth)
+[<img alt="pull requests" src="https://img.shields.io/github/issues-pr/jsxtools/toolchain/rescript-smooth.svg" height="20">](https://github.com/jsxtools/toolchain/pulls?q=is:pr+is:open+label:rescript-smooth)
 
 [rescript-smooth] is a [rescript] configuration for smooth React Apps, allowing you to:
 
@@ -128,5 +128,5 @@ Add a PostCSS configuration with the following fields:
 The default and smooth PostCSS configurations are the same.
 
 [rescript]: https://github.com/harrysolovay/rescripts
-[rescript-smooth]: https://github.com/jsxtools/jsxtools/tree/master/packages/rescript-smooth
-[jsxtools]: https://github.com/jsxtools/jsxtools
+[rescript-smooth]: https://github.com/jsxtools/toolchain/tree/master/packages/rescript-smooth
+[toolchain]: https://github.com/jsxtools/toolchain
