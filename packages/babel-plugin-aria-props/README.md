@@ -1,7 +1,7 @@
 # babel-plugin-aria-props [<img src="https://avatars.githubusercontent.com/u/52989093" alt="" width="90" height="90" align="right">][toolchain]
 
 [<img alt="npm version" src="https://img.shields.io/npm/v/babel-plugin-aria-props.svg" height="20">](https://www.npmjs.com/package/babel-plugin-aria-props)
-[<img alt="build status" src="https://img.shields.io/travis/jsxtools/toolchain/master.svg" height="20">](https://travis-ci.org/jsxtools/toolchain/jsxtools)
+[<img alt="build status" src="https://img.shields.io/travis/jsxtools/toolchain/master.svg" height="20">](https://travis-ci.org/jsxtools/toolchain)
 [<img alt="issue tracker" src="https://img.shields.io/github/issues/jsxtools/toolchain/babel-plugin-aria-props.svg" height="20">](https://github.com/jsxtools/toolchain/issues?q=is:issue+is:open+label:babel-plugin-aria-props)
 [<img alt="pull requests" src="https://img.shields.io/github/issues-pr/jsxtools/toolchain/babel-plugin-aria-props.svg" height="20">](https://github.com/jsxtools/toolchain/pulls?q=is:pr+is:open+label:babel-plugin-aria-props)
 
