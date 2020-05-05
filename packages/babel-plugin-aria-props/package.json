@@ -1,0 +1,42 @@
+{
+    "name": "babel-plugin-aria-props",
+    "version": "1.0.0",
+    "description": "A babel plugin that transforms ARIA Reflection properties on JSX elements into React-compatible attributes",
+    "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+    "license": "CC0-1.0",
+    "repository": "jsxtools/toolchain",
+    "homepage": "https://github.com/jsxtools/toolchain/tree/master/packages/babel-plugin-aria-props#readme",
+    "bugs": "https://github.com/jsxtools/toolchain/issues?q=babel-plugin-aria-props",
+    "main": "index.js",
+    "module": "index.mjs",
+    "files": [
+      "index.js",
+      "index.mjs"
+    ],
+    "keywords": [
+      "babel",
+      "babel-plugin",
+      "a11y",
+      "accessibility",
+      "alias",
+      "aria",
+      "attributes",
+      "attrs",
+      "automatic",
+      "jsx",
+      "map",
+      "mapping",
+      "module",
+      "path",
+      "preact",
+      "properties",
+      "props",
+      "react",
+      "reflection",
+      "rename",
+      "specification",
+      "transform",
+      "translate"
+    ]
+  }
+  
